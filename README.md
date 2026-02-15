@@ -78,7 +78,7 @@ Uber/
 
 ## 🥉 Bronze Layer — Raw Data Ingestion
 
-**Notebook:** `databricks/bronze_ingestion.ipynb`
+**Notebook:** [bronze_ingestion.ipynb](databricks/bronze_ingestion.ipynb)
 
 ### Purpose
 
@@ -111,7 +111,7 @@ The Bronze layer stores **raw, unmodified source data** in Delta format for trac
 
 ## 🥈 Silver Layer — Cleaned & Standardized Data
 
-**Notebook:** `databricks/silver_transformation.ipynb`
+**Notebook:** [silver_transformation.ipynb](databricks/silver_transformation.ipynb)
 
 ### Purpose
 
@@ -137,7 +137,7 @@ The Silver layer contains **validated, cleaned, and deduplicated datasets** read
 
 Reusable logic is defined in:
 
-**Notebook:** `databricks/utils.ipynb`
+**Notebook:** [utils.ipynb](databricks/utils.ipynb)
 
 Includes:
 
