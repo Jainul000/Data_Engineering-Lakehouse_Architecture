@@ -78,6 +78,8 @@ Uber/
 
 ## 🥉 Bronze Layer — Raw Data Ingestion
 
+![](images/databricks_bronze.jpg)
+
 **Notebook:** [bronze_ingestion.ipynb](databricks/bronze_ingestion.ipynb)
 
 ### Purpose
@@ -110,6 +112,9 @@ The Bronze layer stores **raw, unmodified source data** in Delta format for trac
 ---
 
 ## 🥈 Silver Layer — Cleaned & Standardized Data
+
+![](images/databrics_silver.jpg)
+
 
 **Notebook:** [silver_transformation.ipynb](databricks/silver_transformation.ipynb)
 
@@ -149,6 +154,9 @@ Includes:
 ---
 
 ## 🥇 Gold Layer — Analytics-Ready Models (dbt)
+
+![](images/databricks_gold.jpg)
+
 
 **Framework:** dbt
 **Folder:** `dbt/models/`
