@@ -1,4 +1,4 @@
-# 🚕 Uber-Style Data Engineering Pipeline
+# 🚕 Taxi Trips Data Engineering Pipeline
 
 ### Databricks • PySpark • Delta Lake • dbt • Lakehouse Architecture
 
