@@ -1,0 +1,16 @@
+sources:
+  - name: source_bronze
+    database: workspace  
+    schema: bronze  
+    tables:
+      - name: trips
+
+  - name: source_silver
+    database: workspace  
+    schema: silver
+    tables:
+      - name: customers
+      - name: drivers
+      - name: locations
+      - name: vehicles
+      - name: payments
